@@ -1,3 +1,19 @@
+## Solution included
+This repo contains the solution for the task decribed below.
+
+### **Notes**
+
+- `deploy.js` deploys all 5 game contracts at once
+- contract addresses in the `win[1-5].js` scripts need to be updated manually according to the local deployment
+- run one of the `win[1-5].js` scripts to win at the corresponding game
+
+        $ npx hardhat run scripts/win3.js
+
+---
+.
+
+---
+
 # Local Hardhat Games
 
 Let's work on our solidity skills while deploying against a local hardhat blockchain! Inside this repository you'll find 5 smart contracts labled `Game1` to `Game5`. The goal of each smart contract is to:
